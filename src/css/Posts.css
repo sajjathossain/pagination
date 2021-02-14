@@ -1,0 +1,15 @@
+.cardRows {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.imgCard {
+    margin: 10px !important;
+}
+
+.imgCard:hover {
+    transition: .333s linear;
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
