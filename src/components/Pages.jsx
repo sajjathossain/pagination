@@ -18,7 +18,7 @@ const Pages = ({postsPerPage, totalPosts, changePosts, currentPage, nextPage, pr
                 {
                     pagesNumber.map((num) => {
                         return (
-                            <a key={num} className={`p-2 btn ${num === currentPage ? "btn-dark" : "btn-info"} `} onClick={() => changePosts(num)} href="#">{num}</a>
+                            <button key={num} className={`p-2 btn ${num === currentPage ? "btn-dark" : "btn-info"} `} onClick={() => changePosts(num)}>{num}</button>
                         )
                     })
                 }
