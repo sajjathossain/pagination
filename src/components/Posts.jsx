@@ -19,7 +19,7 @@ const Posts = ({ posts, isLoading }) => {
                 posts.map(post => {
                     return (
                         <div key={post.id} className="card imgCard border border-info">
-                            <img src={post.url} alt="image" className="rounded" />
+                            <img src={post.url} alt="img" className="rounded" />
                             <h4 className="card-title font-weight-bold m-2 text-success">Post No : {post.id}</h4>
                             <p className="card-title font-weight-bold m-2">{post.title}</p>
                         </div>
